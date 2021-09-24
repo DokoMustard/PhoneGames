@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17338704, g: 0.216739, b: 0.2988083, a: 1}
+  m_IndirectSpecularColor: {r: 0.17338665, g: 0.21673845, b: 0.29880762, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -692,6 +692,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2401170324434924704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1717080901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147672811479369074, guid: d0fb0b7ebbf167a40a3eb4f823c1edb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 147672810953725205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1717080905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717080901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e3eb3678ba2e74bada385cf7f1dd39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1809081639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 309568262878182138, guid: 20e5cff1398266b4e907256b6c02d68c,
@@ -726,6 +744,11 @@ PrefabInstance:
     - target: {fileID: 147672811479369074, guid: d0fb0b7ebbf167a40a3eb4f823c1edb0,
         type: 3}
       propertyPath: m_Name
+      value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 147672811479369074, guid: d0fb0b7ebbf167a40a3eb4f823c1edb0,
+        type: 3}
+      propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 147672811479369085, guid: d0fb0b7ebbf167a40a3eb4f823c1edb0,
@@ -860,6 +883,11 @@ PrefabInstance:
     - target: {fileID: 309568262878182138, guid: 20e5cff1398266b4e907256b6c02d68c,
         type: 3}
       propertyPath: m_Name
+      value: Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 309568262878182138, guid: 20e5cff1398266b4e907256b6c02d68c,
+        type: 3}
+      propertyPath: m_TagString
       value: Cube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1010,6 +1038,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder
       objectReference: {fileID: 0}
+    - target: {fileID: 4409520618540742996, guid: aa65a898a297d994e8f6d43d8fa15aae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cylinder
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa65a898a297d994e8f6d43d8fa15aae, type: 3}
 --- !u!1001 &6863783315238108795
@@ -1077,6 +1110,11 @@ PrefabInstance:
     - target: {fileID: 6863783314719407212, guid: ae0a60c729fead1449c5a43c89b0f3fd,
         type: 3}
       propertyPath: m_Name
+      value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863783314719407212, guid: ae0a60c729fead1449c5a43c89b0f3fd,
+        type: 3}
+      propertyPath: m_TagString
       value: Sphere
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1249,6 +1287,11 @@ PrefabInstance:
     - target: {fileID: 9213024396025303928, guid: 513c4e341a38e4347a049287770f8169,
         type: 3}
       propertyPath: m_Name
+      value: Capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213024396025303928, guid: 513c4e341a38e4347a049287770f8169,
+        type: 3}
+      propertyPath: m_TagString
       value: Capsule
       objectReference: {fileID: 0}
     - target: {fileID: 9213024396025303931, guid: 513c4e341a38e4347a049287770f8169,
